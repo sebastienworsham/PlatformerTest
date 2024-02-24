@@ -1,5 +1,8 @@
 package edu.sdccd.cisc191;
 
+/**
+ *
+ */
 public class Grid {
     public static String[] LEVEL1 = new String[]{
             "000000000000000000000000000000000000",

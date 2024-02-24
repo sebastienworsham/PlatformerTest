@@ -1,4 +1,4 @@
-package edu.sdccd.cisc191;
+package edu.sdccd.cisc191; //\\
 
 import javafx.animation.AnimationTimer;
 import javafx.animation.ParallelTransition;
@@ -24,7 +24,7 @@ public class Main extends Application {
     private int pVelocityX;
     private int pVelocityY;
     private boolean canJump = true;
-    private HashMap<KeyCode, Boolean> keys = new HashMap<KeyCode, Boolean>();
+    private HashMap<KeyCode, Boolean> keys = new HashMap<KeyCode, Boolean>(); //for key input
     private boolean isPressed(KeyCode key) { return keys.getOrDefault(key, false); }
 
 
